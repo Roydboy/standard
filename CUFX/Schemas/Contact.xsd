@@ -188,6 +188,13 @@
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
+			<xs:element name="solicitationProhibited" type="xs:boolean" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>
+						True when the contact point has been flagged to prevent solicitation activity.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
 
